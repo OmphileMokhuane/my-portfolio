@@ -35,9 +35,6 @@ export default function AboutSection() {
             id="about"
             className="relative w-full min-h-screen bg-zinc-50 dark:bg-zinc-950 overflow-hidden flex items-center justify-center px-6 py-20 font-mono"
         >
-            {/* Background paper texture */}
-            <div className="absolute inset-0 bg-[url('/grain.png')] opacity-[0.05] mix-blend-multiply" />
-
             {/* Terminal-style scanlines overlay */}
             <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute inset-0 bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,rgba(0,0,0,0.03)_2px,rgba(0,0,0,0.03)_4px)] dark:bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,rgba(255,255,255,0.02)_2px,rgba(255,255,255,0.02)_4px)]" />

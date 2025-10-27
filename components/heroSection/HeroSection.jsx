@@ -80,7 +80,6 @@ export default function HeroSection() {
             <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute inset-0 bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,rgba(0,0,0,0.03)_2px,rgba(0,0,0,0.03)_4px)] dark:bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,rgba(255,255,255,0.02)_2px,rgba(255,255,255,0.02)_4px)]" />
             </div>
-            <div className="absolute inset-0 bg-[url('/grain.png')] opacity-[0.05] mix-blend-multiply" />
 
             {/* Top Left - Terminal Prompt */}
             <div ref={topRef} className={`absolute top-8 left-8 z-10 ${manoloMono.className}`}>
@@ -133,7 +132,7 @@ export default function HeroSection() {
                                     <span className="text-zinc-400">location</span>
                                 </div>
                                 <p className="text-2xl md:text-3xl text-green-500 pl-4">
-                                    &gt; Rustenburg, South Africa
+                                    &gt; Rustenburg, North West
                                 </p>
 
                                 <div className="flex items-center gap-2 mt-6">
@@ -152,7 +151,6 @@ export default function HeroSection() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
