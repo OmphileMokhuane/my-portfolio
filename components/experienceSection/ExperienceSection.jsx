@@ -87,8 +87,6 @@ export default function ExperienceSection() {
             id="experience"
             className="relative w-full min-h-screen bg-zinc-50 dark:bg-zinc-950 flex flex-col items-center justify-start py-20 px-6 font-mono overflow-hidden"
         >
-            {/* Background texture */}
-            <div className="absolute inset-0 bg-[url('/grain.png')] opacity-[0.05] mix-blend-multiply" />
 
             {/* Terminal scan lines */}
             <div className="absolute inset-0 pointer-events-none">

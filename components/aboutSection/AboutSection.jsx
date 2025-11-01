@@ -35,7 +35,7 @@ export default function AboutSection() {
             id="about"
             className="relative w-full min-h-screen bg-zinc-50 dark:bg-zinc-950 overflow-hidden flex items-center justify-center px-6 py-20 font-mono"
         >
-            {/* Terminal-style scanlines overlay */}
+            {/* Terminal-style scan lines overlay */}
             <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute inset-0 bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,rgba(0,0,0,0.03)_2px,rgba(0,0,0,0.03)_4px)] dark:bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,rgba(255,255,255,0.02)_2px,rgba(255,255,255,0.02)_4px)]" />
             </div>
@@ -77,7 +77,7 @@ export default function AboutSection() {
                                     </p>
                                     <div className="text-sm text-green-400 mt-1 ml-4 font-mono">
                                         <p>{`{ name: `}<span className="text-green-300">&quot;Omphile Mokhuane&quot;</span>{` }`}</p>
-                                        <p>{`{ age:  `}<span className="animate-pulse">&quot;{age}&quot;</span>{` }`}</p>
+                                        <p>{`{ age:  `}<span className="text-green-300">&quot;{age}&quot;</span>{` }`}</p>
                                     </div>
                                 </div>
                             </div>
@@ -203,7 +203,7 @@ export default function AboutSection() {
                                         "Customer Service",
                                         "Technical Support",
                                         "Troubleshooting",
-                                    ].map((skill, index) => (
+                                    ].map((skill) => (
                                         <div
                                             key={skill}
                                             className="border border-zinc-400 dark:border-zinc-700 bg-zinc-50 dark:bg-black px-3 py-2 hover:bg-zinc-200 dark:hover:bg-zinc-800 hover:border-green-500 dark:hover:border-green-500 transition-all group"

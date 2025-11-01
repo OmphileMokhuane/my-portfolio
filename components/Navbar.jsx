@@ -15,7 +15,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50">
+        <div className="hidden md:block fixed top-4 right-0.5 -translate-x-1/2 z-50">
             {/* Glassmorphism Terminal-style navbar */}
             <div
                 className="font-mono rounded-2xl overflow-hidden"
